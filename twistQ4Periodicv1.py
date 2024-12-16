@@ -18,11 +18,7 @@ from qiskit.quantum_info import Statevector
 import numpy as np
 from numpy import *
 import math
-#IBMQ.save_account('61f3d8f001320c577b3f4ee176a8504dbe5c8951a9397725fc7d2d843fab8f5d381d6259ef6377903e43eb7f14fbaf40faba0885b0abba6cb760adf58d6228e9', overwrite=True)
-#IBMQ.delete_account()
-#print(IBMQ.active_account())
-#IBMQ.save_account('ea8636dddfe30737d43c4028f41dcfef14e672200543c4fa4e550c04c19b9fdb2059dea90eae79933487fffeed5a1a27b370308fdbf3f1f7e0ebfa6e58512592', overwrite=True)#pouyan
-IBMQ.save_account('557bf66a69d4906a509feaff4379ff3959627f143c76716b09605d9d0578df9fdd3e47105316f1f30ad7957e2a7c60a35b194f311a20c62d9673ac87f5208a49', overwrite=True)#Armin
+IBMQ.save_account('', overwrite=True)
 
 
 IBMQ.load_account()
